@@ -13,6 +13,7 @@ echo 'Finished cloning'
     fi
 
     cp -r ListExamples/ListExamples.java .
+    cp -r lib .
     if [[ -f ListExamples.java ]]
     then
         echo "Successfully moved file to same directory"
